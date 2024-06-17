@@ -7,7 +7,6 @@ import { ORDERS_SERVICE, envs } from 'src/config';
   controllers: [OrdersController],
   imports: [
     ClientsModule.register([
-      
       { 
         name: ORDERS_SERVICE, 
         transport: Transport.TCP,
